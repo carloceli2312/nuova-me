@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuova Me — Salone di parrucchiera a Corigliano-Rossano (CS). Taglio, colore, piega, trattamenti con oltre 30 anni di esperienza.">
+  <title>Nuova Me — Salone di Parrucchiera · Corigliano-Rossano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ NAV -->
+  <nav id="navbar" role="navigation" aria-label="Navigazione principale">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Nuova Me — Torna in cima">Nuova Me</a>
+
+      <button
+        class="nav-toggle"
+        id="navToggle"
+        aria-label="Apri menu di navigazione"
+        aria-expanded="false"
+        aria-controls="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="navMenu" role="list">
+        <li><a href="#salone">Il Salone</a></li>
+        <li><a href="#servizi">Servizi</a></li>
+        <li><a href="#galleria">Galleria</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+
+      <a href="tel:3331174168" class="btn-prenota" aria-label="Prenota un appuntamento al 333 117 4168">
+        Prenota
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════ HERO -->
+    <section class="hero" aria-label="Benvenuta al salone Nuova Me">
+      <div class="hero-inner">
+
+        <div class="hero-text">
+          <p class="hero-eyebrow">Corigliano-Rossano, Calabria</p>
+          <h1>La bellezza<br><em>è la tua firma.</em></h1>
+          <p class="hero-sub">
+            Un salone dove l'esperienza incontra l'eleganza.<br>
+            Prenditi cura di te con attenzione artigianale e prodotti d'eccellenza.
+          </p>
+          <a href="tel:3331174168" class="btn-primary" aria-label="Chiama il 333 117 4168 per prenotare">
+            <span class="btn-label">Chiamaci</span>
+            <span class="btn-number">333 117 4168</span>
+          </a>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img
+            src="img/esterno.jpg"
+            alt="Esterno del salone Nuova Me a Corigliano-Rossano"
+            loading="eager"
+            width="700"
+            height="900">
+          <div class="hero-badge" aria-label="Circa 30 anni di esperienza">
+            <span class="badge-number">~30</span>
+            <span class="badge-text">anni di<br>esperienza</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ STRIP -->
+    <div class="strip" role="region" aria-label="Servizi e brand del salone">
+      <div class="strip-track" aria-hidden="true">
+        <span>Taglio</span><span class="dot">·</span>
+        <span>Colore</span><span class="dot">·</span>
+        <span>Piega</span><span class="dot">·</span>
+        <span>Trattamenti</span><span class="dot">·</span>
+        <span>Permanente</span><span class="dot">·</span>
+        <span>Echosline</span><span class="dot">·</span>
+        <span>Fanola</span><span class="dot">·</span>
+        <span>Consulenza</span><span class="dot">·</span>
+        <!-- duplicate per loop seamless -->
+        <span>Taglio</span><span class="dot">·</span>
+        <span>Colore</span><span class="dot">·</span>
+        <span>Piega</span><span class="dot">·</span>
+        <span>Trattamenti</span><span class="dot">·</span>
+        <span>Permanente</span><span class="dot">·</span>
+        <span>Echosline</span><span class="dot">·</span>
+        <span>Fanola</span><span class="dot">·</span>
+        <span>Consulenza</span><span class="dot">·</span>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════ ABOUT -->
+    <section id="salone" class="about reveal" aria-label="La storia del salone">
+      <div class="about-inner">
+
+        <div class="about-images" aria-hidden="true">
+          <figure class="about-img about-img--main">
+            <img src="img/gallery-1.jpg" alt="Interno del salone Nuova Me" loading="lazy" width="500" height="620">
+          </figure>
+          <figure class="about-img about-img--accent">
+            <img src="img/gallery-2.jpg" alt="Dettaglio degli arredi del salone" loading="lazy" width="320" height="380">
+          </figure>
+        </div>
+
+        <div class="about-text">
+          <p class="section-label">Il Salone</p>
+          <h2>Una storia di<br>cura e passione</h2>
+          <p>
+            Tutto è iniziato nel <strong>1996</strong>, quando abbiamo aperto il nostro primo salone
+            con un'unica certezza: che ogni cliente merita attenzione artigianale e prodotti d'eccellenza.
+          </p>
+          <p>
+            Quasi trent'anni dopo, nel settembre 2025, nasce <strong>Nuova Me</strong> —
+            un nuovo spazio, lo stesso spirito. Un salone pensato per la donna che vuole
+            sentirsi davvero se stessa.
+          </p>
+
+          <div class="timeline" aria-label="Storia del salone dalla fondazione ad oggi">
+            <div class="timeline-item">
+              <span class="timeline-year">1996</span>
+              <span class="timeline-desc">Apertura del primo salone</span>
+            </div>
+            <div class="timeline-connector" aria-hidden="true">
+              <span class="timeline-line"></span>
+              <span class="timeline-dot"></span>
+              <span class="timeline-dot"></span>
+              <span class="timeline-dot"></span>
+              <span class="timeline-line"></span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2025</span>
+              <span class="timeline-desc">Nasce Nuova Me</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SERVICES -->
+    <section id="servizi" class="services reveal" aria-label="I servizi del salone Nuova Me">
+      <div class="section-header">
+        <p class="section-label">Servizi</p>
+        <h2>Tutto ciò di cui hai bisogno</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">✦</div>
+          <h3>Taglio</h3>
+          <p>Taglio preciso e personalizzato che valorizza la tua forma del viso e il tuo stile unico. Scalato, geometrico, naturale.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">◈</div>
+          <h3>Colore</h3>
+          <p>Colorazioni, meches, balayage e tecniche avanzate con prodotti Echosline e Fanola per un risultato luminoso e duraturo.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">◇</div>
+          <h3>Piega</h3>
+          <p>Piega liscia, mosso o naturale. Ogni texture valorizzata al massimo per un look che dura dalla mattina alla sera.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">✧</div>
+          <h3>Trattamenti</h3>
+          <p>Maschere nutrienti, trattamenti ristrutturanti e rituali di bellezza per capelli sani, forti e luminosi.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">◉</div>
+          <h3>Permanente</h3>
+          <p>Permanente classica o volume per un riccio definito e duraturo, rispettando salute e struttura del capello.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true">◎</div>
+          <h3>Consulenza</h3>
+          <p>Un momento dedicato a te: analizziamo insieme il tuo capello e costruiamo il percorso di bellezza più adatto.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ GALLERY -->
+    <section id="galleria" class="gallery reveal" aria-label="Galleria fotografica del salone">
+      <div class="section-header">
+        <p class="section-label">Galleria</p>
+        <h2>Gli spazi di Nuova Me</h2>
+      </div>
+
+      <div class="gallery-grid" role="list">
+
+        <figure class="gallery-item gallery-item--tall" role="listitem">
+          <img src="img/gallery-1.jpg" alt="Vista principale della sala del salone" loading="lazy" width="400" height="700">
+        </figure>
+
+        <figure class="gallery-item" role="listitem">
+          <img src="img/gallery-2.jpg" alt="Postazione di lavoro con specchio" loading="lazy" width="400" height="340">
+        </figure>
+
+        <figure class="gallery-item" role="listitem">
+          <img src="img/gallery-3.jpg" alt="Dettaglio degli specchi e dell'illuminazione" loading="lazy" width="400" height="340">
+        </figure>
+
+        <figure class="gallery-item gallery-item--wide" role="listitem">
+          <img src="img/gallery-4.jpg" alt="Area accoglienza e reception del salone" loading="lazy" width="820" height="340">
+        </figure>
+
+        <figure class="gallery-item gallery-item--tall" role="listitem">
+          <img src="img/gallery-5.jpg" alt="Esposizione prodotti Echosline e Fanola" loading="lazy" width="400" height="700">
+        </figure>
+
+        <figure class="gallery-item" role="listitem">
+          <img src="img/gallery-6.jpg" alt="Postazione lavatesta con vista sul salone" loading="lazy" width="400" height="340">
+        </figure>
+
+        <figure class="gallery-item" role="listitem">
+          <img src="img/gallery-7.jpg" alt="Dettaglio dell'arredo elegante" loading="lazy" width="400" height="340">
+        </figure>
+
+        <figure class="gallery-item" role="listitem">
+          <img src="img/gallery-8.jpg" alt="Atmosfera raffinata del salone Nuova Me" loading="lazy" width="400" height="340">
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ NEWSLETTER -->
+    <section class="newsletter reveal" aria-label="Iscriviti alla newsletter di Nuova Me">
+      <div class="newsletter-inner">
+        <p class="section-label">Newsletter</p>
+        <h2>Resta aggiornata<br>su offerte e novità</h2>
+        <p class="newsletter-sub">
+          Promozioni esclusive, consigli di bellezza e aggiornamenti dal salone —
+          direttamente nella tua casella email.
+        </p>
+
+        <form class="newsletter-form" action="#" method="post" aria-label="Modulo iscrizione newsletter">
+          <div class="form-row">
+            <label for="newsletter-email" class="sr-only">Il tuo indirizzo email</label>
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              placeholder="La tua email"
+              required
+              autocomplete="email"
+              aria-required="true">
+            <button type="submit" class="btn-primary">Iscriviti</button>
+          </div>
+        </form>
+
+        <p class="newsletter-disclaimer">
+          Iscrivendoti accetti i nostri termini. Potremmo condividere i tuoi dati con partner selezionati
+          del settore beauty — consenso separato richiesto al momento dell'iscrizione.
+        </p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTATTI -->
+    <section id="contatti" class="contacts reveal" aria-label="Contatti e orari di apertura">
+      <div class="section-header">
+        <p class="section-label">Contatti</p>
+        <h2>Vieni a trovarci</h2>
+      </div>
+
+      <div class="contacts-inner">
+
+        <div class="contacts-map">
+          <iframe
+            src="https://maps.google.com/maps?q=Corigliano-Rossano+CS+Italia&output=embed&z=14"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mappa di Corigliano-Rossano — posizione del salone Nuova Me"
+            aria-label="Mappa Google del salone Nuova Me a Corigliano-Rossano">
+          </iframe>
+        </div>
+
+        <div class="contacts-info">
+
+          <div class="info-block">
+            <p class="info-label">Telefono</p>
+            <a href="tel:3331174168" class="info-value info-phone" aria-label="Chiama il numero 333 117 4168">
+              333 117 4168
+            </a>
+          </div>
+
+          <div class="info-block">
+            <p class="info-label">Dove siamo</p>
+            <p class="info-value">Corigliano-Rossano (CS)<br>Calabria, Italia</p>
+          </div>
+
+          <div class="info-block">
+            <p class="info-label">Orari di apertura</p>
+            <table class="hours-table" aria-label="Orari di apertura del salone">
+              <tbody>
+                <tr>
+                  <td>Mar — Sab</td>
+                  <td>08:00 – 13:00 &nbsp;/&nbsp; 14:30 – 19:30</td>
+                </tr>
+                <tr class="closed">
+                  <td>Lunedì</td>
+                  <td>Chiuso</td>
+                </tr>
+                <tr class="closed">
+                  <td>Domenica</td>
+                  <td>Chiuso</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <a href="tel:3331174168" class="btn-primary" aria-label="Chiama il 333 117 4168 per prenotare">
+            Prenota ora
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════ FOOTER -->
+  <footer role="contentinfo" aria-label="Informazioni sul sito Nuova Me">
+    <div class="footer-inner">
+      <p class="footer-logo">Nuova Me</p>
+      <p class="footer-copy">
+        &copy; 2025 Nuova Me · Salone di parrucchiera · Corigliano-Rossano (CS)
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
